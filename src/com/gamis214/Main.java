@@ -14,5 +14,9 @@ public class Main {
         Animal caballo = new Caballo("Spark","Pasto",25,"Pony");
         caballo.Alimentarse();
 
+        //Creamos un pollito
+        Animal pollito = new Pollito("Pio", "Maiz", 1, "Pelea");
+        pollito.Alimentarse();
+
     }
 }
